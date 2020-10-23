@@ -2,7 +2,10 @@
 
 - Após criado o repositorio no GitHub atualizar com o projeto criado.
 
-git remote set-url origin git@github.com:alvescvinicius/primeiro-projeto-sts
+git remote set-url origin https://git@github.com/alvescvinicius/primeiro-projeto-sts
 
+git add .
 
-	
+git commit –m "Arquivos iniciais do​ ​projeto"
+
+git push origin master
