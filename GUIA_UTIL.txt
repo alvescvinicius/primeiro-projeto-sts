@@ -1,3 +1,7 @@
+------------------------------------------------------------------------------------
+- Criar projeto no eclipse e commitar no github.
+------------------------------------------------------------------------------------
+
 - Criar projeto SpringBoot (starter).
 
 - Após criado o repositorio no GitHub atualizar com o projeto criado.
@@ -9,3 +13,18 @@ git add .
 git commit –m "Arquivos iniciais do​ ​projeto"
 
 git push origin master
+
+------------------------------------------------------------------------------------
+- Baixar repositorio do github e importar no eclipse como projeto maven.
+------------------------------------------------------------------------------------
+
+* OBSERVACAO: Caso precise clonar o repositorio recem criado.
+
+git clone https://git@github.com/alvescvinicius/primeiro-projeto-sts
+
+* Configura o projeto para o tipo maven assim podera ser importado pelo eclipse
+
+mvn eclipse:eclise
+
+* Importaar o projeto no eclipse como maven.
+
