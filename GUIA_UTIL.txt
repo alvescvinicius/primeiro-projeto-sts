@@ -18,7 +18,7 @@ git push origin master
 - Baixar repositorio do github e importar no eclipse como projeto maven.
 ------------------------------------------------------------------------------------
 
-* OBSERVACAO: Caso precise clonar o repositorio recem criado.
+* Caso precise clonar o repositorio recem criado.
 
 git clone https://git@github.com/alvescvinicius/primeiro-projeto-sts
 
@@ -26,5 +26,22 @@ git clone https://git@github.com/alvescvinicius/primeiro-projeto-sts
 
 mvn eclipse:eclise
 
-* Importaar o projeto no eclipse como maven.
+* Importar o projeto no eclipse como maven.
 
+------------------------------------------------------------------------------------
+- Travis - Integração continua
+------------------------------------------------------------------------------------
+
+- http://travis-ci.org
+
+- Conectar no GitHub pelo Travis
+
+- Ativar repositorio do projeto
+
+- Crie na raiz do projeto um arquivo chamado .travis.yml
+
+- Adicione o conteudo:
+
+language: java
+jdk:
+- oraclejdk8
